@@ -1,0 +1,52 @@
+/* src/features/auth/components/AuthForm.module.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.rowGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-muted, #5b6b70);
+}
+
+.checkboxWrapper a {
+  color: var(--color-primary, #0a7c63);
+  text-decoration: underline;
+}
+
+.globalError {
+  font-size: 0.85rem;
+  color: #ef4444;
+  background-color: #fef2f2;
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.switchLink {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-muted, #5b6b70);
+}
+
+.switchLink a {
+  color: var(--color-primary, #0a7c63);
+  font-weight: 500;
+  text-decoration: underline;
+}
